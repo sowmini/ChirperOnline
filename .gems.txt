@@ -1,4 +1,2 @@
-rails
-rdiscount
-RedCloth
-will_paginate --version '~> 2.3.11'
+hpricot --version '>= 0.2' --source code.whytheluckystiff.net
+dm-core --version 0.9.10
