@@ -1,0 +1,4 @@
+rails
+rdiscount
+RedCloth
+will_paginate --version '~> 2.3.11'
