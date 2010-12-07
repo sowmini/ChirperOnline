@@ -20,15 +20,17 @@
         <li><%= nav_link "First Look", "chirper", "demo" %> </li>
         <li><%= nav_link "Support", "chirper", "support" %> </li>
         <li><%= nav_link "Downloads", "chirper", "downloads" %> </li>
-        <li><%= nav_link "Resources", "chirper", "resources" %> </li>
+        <li><%= nav_link "Resources", "chirper", "resources" %></li>
       </ul>
     </div>
   
     <div id="login" class="boxed">
       <div class="content">
+        
         <form id="form1" method="post" action="#">
-          <input id="download" type="submit" name="inputsubmit1" value="Download APK file" /><br>
-          <input id="download" type="submit" name="inputsubmit1" value="Download Data" />
+          <%= link_to "Download Data", { :controller => 'chirper', :action => 'data' }, :id => 'download' %>
+          <br><br><br><br>
+          <%= link_to "Download APK", { :controller => 'chirper', :action => 'apk' }, :id => 'download' %>
         </form>
       </div>
     </div>
