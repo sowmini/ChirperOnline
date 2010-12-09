@@ -12,6 +12,10 @@ ChirperOnline::Application.routes.draw do
   get "home/index"
 
   get "chirper/feedback"
+  
+   get "chirper/apk"
+  
+  get "chirper/data"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
